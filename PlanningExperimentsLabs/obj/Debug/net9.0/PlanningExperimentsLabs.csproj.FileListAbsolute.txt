@@ -1,0 +1,14 @@
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\bin\Debug\net9.0\PlanningExperimentsLabs.exe
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\bin\Debug\net9.0\PlanningExperimentsLabs.deps.json
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\bin\Debug\net9.0\PlanningExperimentsLabs.runtimeconfig.json
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\bin\Debug\net9.0\PlanningExperimentsLabs.dll
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\bin\Debug\net9.0\PlanningExperimentsLabs.pdb
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.AssemblyInfoInputs.cache
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.AssemblyInfo.cs
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.csproj.CoreCompileInputs.cache
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.dll
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\refint\PlanningExperimentsLabs.dll
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.pdb
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.genruntimeconfig.cache
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\ref\PlanningExperimentsLabs.dll
