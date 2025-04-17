@@ -12,3 +12,4 @@ C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj
 C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.pdb
 C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.genruntimeconfig.cache
 C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\ref\PlanningExperimentsLabs.dll
+C:\Users\super\RiderProjects\PlanningExperimentsLabs\PlanningExperimentsLabs\obj\Debug\net9.0\PlanningExperimentsLabs.sourcelink.json
