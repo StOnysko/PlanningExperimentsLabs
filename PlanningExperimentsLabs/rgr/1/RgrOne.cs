@@ -1,33 +1,35 @@
+using PlanningExperimentsLabs.rgr._1.data;
+using PlanningExperimentsLabs.rgr._1.sorter;
+
 namespace PlanningExperimentsLabs.rgr._1;
 
 using System;
 using System.Diagnostics;
 
 public static class RgrOne
+{
+    public static void Start()
     {
-        public static void Start()
-        {
-            const int recordCount = 100000; // Можна змінювати кількість записів
-            const string sortBy = "genre";   // "genre", "artist", або "title"
+        const int recordCount = 20000000; 
+        const string sortBy = "genre"; 
 
-            Console.WriteLine($"Створення {recordCount} музичних записів...");
-            var musicList = MusicGenerator.Generate(recordCount);
+        Console.WriteLine($"Generating {recordCount} music records...");
+        var musicList = MusicGenerator.Generate(recordCount);
 
-            // Послідовне сортування
-            Console.WriteLine($"\n🔹 Послідовне сортування за {sortBy}...");
-            var stopwatch = Stopwatch.StartNew();
-            var sequentialSorted = SequentialSorter.Sort(musicList, sortBy);
-            stopwatch.Stop();
-            Console.WriteLine($"Час: {stopwatch.ElapsedMilliseconds} мс");
+        // Sequential sorting
+        Console.WriteLine($"\nSequential sorting by {sortBy}...");
+        var stopwatch = Stopwatch.StartNew();
+        var sequentialSorted = SequentialSorter.Sort(musicList, sortBy);
+        stopwatch.Stop();
+        Console.WriteLine($"Time: {stopwatch.ElapsedMilliseconds} ms");
 
-            // Паралельне сортування
-            Console.WriteLine($"\n🔹 Паралельне сортування за {sortBy}...");
-            stopwatch.Restart();
-            var parallelSorted = ParallelSorter.Sort(musicList, sortBy);
-            stopwatch.Stop();
-            Console.WriteLine($"Час: {stopwatch.ElapsedMilliseconds} мс");
+        // Parallel sorting
+        Console.WriteLine($"\nParallel sorting by {sortBy}...");
+        stopwatch.Restart();
+        var parallelSorted = ParallelSorter.Sort(musicList, sortBy);
+        stopwatch.Stop();
+        Console.WriteLine($"Time: {stopwatch.ElapsedMilliseconds} ms");
 
-            Console.WriteLine("\n✅ Завершено.");
-        }
+        Console.WriteLine("\nCompleted.");
     }
-
+}

@@ -1,8 +1,8 @@
-namespace PlanningExperimentsLabs.rgr._1;
+namespace PlanningExperimentsLabs.rgr._1.data;
 
 public static class MusicGenerator
 {
-    public static List<Music> Generate(int count)
+    public static List<Music>? Generate(int count)
     {
         var random = new Random();
         var genres = new[] { "Rock", "Pop", "Jazz", "Classical", "Hip-Hop" };

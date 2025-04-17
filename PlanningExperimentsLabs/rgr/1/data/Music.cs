@@ -1,4 +1,4 @@
-namespace PlanningExperimentsLabs.rgr._1;
+namespace PlanningExperimentsLabs.rgr._1.data;
 
 public class Music
 {
