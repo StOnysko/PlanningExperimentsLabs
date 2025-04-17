@@ -1,4 +1,4 @@
-namespace PlanningExperimentsLabs.Data.Local;
+namespace PlanningExperimentsLabs.Laboratories.Data.Local;
 
 public abstract class FileManager
 {
@@ -7,7 +7,7 @@ public abstract class FileManager
     public const string LaboratoryOneSorted = "LR1_NoThreadUsageSorting.txt";
     public const string LaboratoryOneThreadUsage = "LR1_ThreadUsageSorting.txt";
 
-    public static void CreateFile(string fileName, List<Data.Weather.Weather> list)
+    public static void CreateFile(string fileName, List<Weather.Weather> list)
     {
         try
         {

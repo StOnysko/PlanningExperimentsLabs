@@ -1,8 +1,8 @@
-namespace PlanningExperimentsLabs.Data.Weather;
+namespace PlanningExperimentsLabs.Laboratories.Data.Weather;
 
 public static class WeatherRepository
 {
-    private static Weather GenerateInstance()
+    private static Laboratories.Data.Weather.Weather GenerateInstance()
     {
         var rand = new Random();
         var date = DateOnly.FromDateTime(DateTime.Now.AddDays(rand.Next(-30, 30)));

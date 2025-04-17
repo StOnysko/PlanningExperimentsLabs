@@ -1,6 +1,6 @@
 using System.Diagnostics;
-using PlanningExperimentsLabs.Data.Local;
-using PlanningExperimentsLabs.Data.Weather;
+using PlanningExperimentsLabs.Laboratories.Data.Local;
+using PlanningExperimentsLabs.Laboratories.Data.Weather;
 
 namespace PlanningExperimentsLabs.Laboratories._2;
 

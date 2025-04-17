@@ -1,4 +1,4 @@
-namespace PlanningExperimentsLabs.Data.Weather;
+namespace PlanningExperimentsLabs.Laboratories.Data.Weather;
 
 public class Weather(
     DateOnly date,

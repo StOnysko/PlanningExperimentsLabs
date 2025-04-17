@@ -4,7 +4,7 @@ namespace PlanningExperimentsLabs.rgr._1.sorter;
 
 public static class ParallelSorter
 {
-    public static List<Music>? Sort(List<Music>? list, string sortBy)
+    public static List<Music> Sort(List<Music>? list, string sortBy)
     {
         if (list == null || list.Count == 0)
             return [];
